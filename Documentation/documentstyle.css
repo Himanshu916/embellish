@@ -1,0 +1,135 @@
+
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    background-color: black;
+}
+
+h1,p,h2
+{
+    margin:0;
+}
+.embellish
+{
+    background-color: black;
+    width:150px;
+    padding:5px;
+    text-align: center;
+    border-radius: 8px;
+}
+.components
+{
+    display:grid;
+    /* height:100vh; */
+    grid-gap: 10px;
+    grid-template-columns: 350px auto;
+    grid-template-areas:"aside content";
+                         
+}
+
+.components__list
+{
+    background-color: #D1D5DB;
+    width:350px;
+    height:100%;
+    grid-area: aside;
+    position: fixed;
+    
+}
+.components__content
+{
+    background-color: #D1D5DB;
+    grid-area: content;
+    
+}
+
+.components__list ul
+{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    left:10px;
+}
+.components__list ul li
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+.components__list ul li a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.content
+{
+    
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:10px 20px;
+    padding-bottom: 30px;
+    margin:10px 20px;
+   
+    
+}
+.content__heading
+{
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.content__image
+{
+    width: fit-content;
+    height: max-content;
+    margin-left:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow:  0 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.content__paragraph
+{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight:400;
+}
+.content__paragraph-dark
+{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+}
+@media only screen and (max-width: 560px) {
+    body {
+        width: 560px;
+    };
+    
+    .components
+    {
+        display:grid;
+        grid-gap: 0px;
+        grid-template-columns: 200px auto;
+        grid-template-areas:"aside content";
+                             
+    }
+    .components__list
+{
+    width:280px;
+    
+    
+}
+.components__list ul
+{
+    display:flex;
+    flex-direction: column;
+    position:static;
+    left:10px;
+}
+}

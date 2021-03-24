@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MANDIK - The Component Library</title>
+</head>
+<body>
+    <nav style="background-color: #424242;" class="navigation">
+        <ul>
+            <li><a href="./index.html">Embellish</a> </li>
+            <li><a href="./home.html">Home</a> </li>
+            <li><a href="./Documentation/document.html">Docs</a></li>
+          
+        </ul>
+    </nav>
+    <div class="element" >
+        <h1 class="element__heading">Navigation</h1>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="">MANDIK</a> </li>
+                <li><a href="">Home</a> </li>
+                <li><a href=""> About</a></li>
+                <li><a href="">Contact</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="element">
+        <h1 class="element__heading">Avatar</h1>
+
+        <h2 class="element__subheading">Avatar to represent the user.</h2>
+        <div class="avatar">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">  
+        </div>
+        
+        <h2 class="element__subheading">Avatar with username and userid</h2>
+        <div class="avatar avatar--withuser">
+            <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+            <div class="avatar__user">
+                <h3>Himanshu Rana</h3>
+                <p>@himanshurana__1038</p>
+            </div>
+        </div>
+        <h2 class="element__subheading">Avatar with state online or offline</h2>
+        <div class="avatar ">
+            <div class="avatar--withstate">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <div class="avatar__state--online  "></div>
+            </div>
+            <div class="avatar--withstate">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <div class="avatar__state--online  "></div>
+            </div>
+            <div class="avatar--withstate">
+                <img class="avatar__profile" src="https://pbs.twimg.com/profile_images/1274774034798895104/Jv7PbNZD_400x400.jpg" alt="profile">
+                <div class="avatar__state--offline  "></div>
+            </div>
+           
+        </div>
+    </div>
+    <div class="element">
+        <h1 class="element__heading">Alert</h1>
+       
+        <div class="alert">
+            <div class="alert__success--small">
+                <span >
+                    <i class="fa fa-check-square" style="font-size:24px"></i>
+                </span> 
+                <p class="alert__success--sc" >
+                    <span class="alert__success--heading">
+                        Success ! 
+                        <span class="cross-button">
+                            X
+                        </span>
+                </span>
+                    Success Lorem ipsum dolor 
+                </p>
+                </div>
+        </div>
+
+        <div class="alert">
+            <div class=" alert__success--large " >
+                <div class="alert__success--icon" >
+                    <i   class="fa fa-check-square" style="font-size:48px"></i>
+                </div>
+                <h3>Application Submitted</h3>
+                <p class="alert__success--lc" style="width:200px;" >
+                    Thanks for submitting your application. Our team will get back to you soon.
+                </p>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="element">
+        <h1 class="element__heading">Buttons</h1>
+        
+        <h2 class="element__subheading">Primary Button</h2>
+
+        <button class="primary-btn">Primary</button>
+        <button class="secondary-btn">Secondary</button>
+        <a href="#"><button class="link-btn">Link Button</button></a>
+
+
+        <div>
+            <h2 class="element__subheading">Icon Buttons with text</h2 class="element__subheading">
+            <button class="icon-btn-text"><i class="fa fa-home"></i> Home</button>
+            <button class="icon-btn-text"><i class="fa fa-bars"></i> Menu</button>
+            <button class="icon-btn-text"><i class="fa fa-trash"></i> Trash</button>
+            <button class="icon-btn-text"><i class="fa fa-close"></i> Close</button>
+            <button class="icon-btn-text"><i class="fa fa-folder"></i> Folder</button>
+        </div>
+
+        <div>
+            <h2 class="element__subheading">Some Icon Button</h2 class="element__subheading">
+            <button class="icon-btn"><i class="fa fa-inr" style="font-size:24px"></i></button>
+            <button class="icon-btn"><i class="fa fa-facebook-square" style="font-size:24px"></i></button>
+            <button class="icon-btn"><i class="fa fa-google-plus" style="font-size:24px"></i></button>
+            <button class="icon-btn"><i class="fa fa-instagram" style="font-size:24px"></i></button>
+            <button class="icon-btn"><i class="fa fa-linkedin-square" style="font-size:24px"></i></button>
+            <button class="icon-btn"><i class="fa fa-twitter-square" style="font-size:24px"></i></button>
+        </div>
+
+    </div>
+
+    <div class="element">
+        <h1 class="element__heading">Badges</h1>
+       
+        <div style="width:400px;margin: 0 auto;">
+
+    
+        <div class="badge">
+            TRENDING
+        </div>
+
+        <div class="badge-discount">
+            discount
+        </div>
+     
+           
+        <div class="badge-hotoffer">
+            <span>Hot</span> <span>Offer</span>
+        </div>
+
+
+        </div>
+       
+      
+    </div>
+    <div class="element">
+        <h1 class="element__heading">Cards</h1>
+      
+        <div class="cards">
+            <div class="card">
+                <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+                <div class="card__information">
+                    <h3 class="card__brand">Brand X</h3>
+                    <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                    <div class="card__price"><span>Rs. 524</span>
+                        <span class="card__price-marked"> Rs.749</span>
+                        <span class="card__price-discount"> (30% off)</span></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+                <div class="card__information">
+                    <h3 class="card__brand">Brand X</h3>
+                    <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                    <div class="card__price"><span>Rs. 524</span>
+                        <span class="card__price-marked"> Rs.749</span>
+                        <span class="card__price-discount"> (30% off)</span></div>
+                </div>
+            </div>
+       
+
+        <div class="card">
+            <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+            <div class="card__information">
+                <h3 class="card__brand">Brand X</h3>
+                <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                <div class="card__price"><span>Rs. 524</span><span class="card__price-marked"> Rs.749</span><span class="card__price-discount"> (30% off)</span></div>
+            </div>
+        </div>
+         
+        <div class="card">
+            <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+            <div class="card__information">
+                <h3 class="card__brand">Brand X</h3>
+                <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                <div class="card__price"><span>Rs. 524</span><span class="card__price-marked"> Rs.749</span><span class="card__price-discount"> (30% off)</span></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+            <div class="card__information">
+                <h3 class="card__brand">Brand X</h3>
+                <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                <div class="card__price"><span>Rs. 524</span><span class="card__price-marked"> Rs.749</span><span class="card__price-discount"> (30% off)</span></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+            <div class="card__information">
+                <h3 class="card__brand">Brand X</h3>
+                <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                <div class="card__price"><span>Rs. 524</span><span class="card__price-marked"> Rs.749</span><span class="card__price-discount"> (30% off)</span></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="element" >
+        <h1 class="element__heading">Cards with text overlay</h1>
+        
+        <div class="card card--overlay">
+            <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+            <div class="card__information">
+                <h3 class="card__brand">Brand X</h3>
+                <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                <div class="card__price"><span>Rs. 524</span>
+                    <span class="card__price-marked"> Rs.749</span>
+                    <span class="card__price-discount"> (30% off)</span>
+                </div>
+                <p class="card__text-overlay">This is overlay text . </p>
+            </div>
+        </div>
+
+
+        </div>
+        <div class="element" >
+            <h1 class="element__heading">Cards with badges</h1>
+                     
+            <div class="card position-relative">
+                <img class="card__img" src="https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/4318138/2018/5/4/11525433792765-HERENOW-Men-Black-Printed-Round-Neck-T-shirt-2881525433792598-1.jpg"  alt="Tshirt" title="Tshirt" >
+                <div class="card__information">
+                    <h3 class="card__brand">Brand X</h3>
+                    <h4 class="card__description">Men Printed Round Neck T-Shirt</h4>
+                    <div class="card__price"><span>Rs. 524</span>
+                        <span class="card__price-marked"> Rs.749</span>
+                        <span class="card__price-discount"> (30% off)</span>
+                    </div>
+                </div>
+                <div class="badge position-absolute">Trending</div>
+            </div>
+            
+        </div>
+
+     <div class="element" >
+        <h1 class="element__heading">Text Cards</h1>
+
+
+        <div class="cards cards--text">
+           <div class="card card--text">
+               <h1>Card text 1</h1>
+               <p>
+                   text is here Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.Alias voluptate nam vero, labore in sunt?
+               </p>
+           <button>here</button>
+           </div>
+           <div class="card card--text">
+            <h1>Card text 2</h1>
+            <p>
+                text is here
+            </p>
+                <button>here</button>
+   
+           </div>
+        
+
+
+           <div class="card card--text">
+            <h1>Card text 3</h1>
+            <p>
+                text is here                                 
+                
+            </p>
+       
+                <button>here</button>
+   
+           </div>
+           <div class="card card--text">
+            <h1>Card text 4</h1>
+            <p>
+                text is here
+            </p>
+       
+                <button>here</button>
+   
+           </div>
+
+        </div>
+        
+ 
+     </div>
+ 
+     <div class="element" >
+        <h1 class="element__heading"> Cards With Shadow</h1>
+
+        <div class="cards">
+            <div class="card card--shadow card--text">
+                <h1>Card text 4</h1>
+                <p>
+                    text is here
+                </p>
+           
+                <button>here</button>
+            </div>
+            <div class="card card--shadow card--text">
+                <h1>Card text 4</h1>
+                <p>
+                    text is here
+                </p>
+           
+                <button>here</button>
+            </div>
+
+            <div class="card card--shadow card--text">
+                <h1>Card text 4</h1>
+                <p>
+                    text is here
+                </p>
+           
+                <button>here</button>
+            </div>
+
+        </div>
+     </div>
+     <div  class="element" >
+        <h1 class="element__heading">Responsive Images</h1>
+ 
+
+
+        <h2 class="element__subheading">Image </h2>
+        <img class="image-responsive" src="https://tse2.mm.bing.net/th?id=OIP.FKsK9QqfnzvTNNvC3I5BOQHaEo&pid=Api&P=0&w=276&h=173"  alt="view" title="view" >
+
+
+
+        <h2 class="element__subheading">Round Image</h2>
+        <img class="image-responsive image-responsive--round" src="https://tse2.mm.bing.net/th?id=OIP.FKsK9QqfnzvTNNvC3I5BOQHaEo&pid=Api&P=0&w=276&h=173" alt="">
+
+
+     </div>
+   
+    <div class="element" >
+
+
+       <h1 class="element__heading">Containers</h1>
+   
+       <h2 class="element__subheading">Fluid Container</h2>
+       <div class="container container--fluid">
+           This is fluid container
+       </div>
+
+
+       <h2 class="element__subheading">Centered Container</h2>
+       <div class="container container--center">
+        This is centered container
+       </div>
+       
+    </div>
+    <div class="element" >
+        <h1 class="element__heading">Stacked List</h1>
+
+        <ul class="stacked">
+            <li><span>Item 1</span> <button class="primary-btn">Add</button></li>
+            <li><span>Item 2</span> <button class="primary-btn">Add</button></li>
+            <li><span>Item 3</span> <button class="primary-btn">Add</button></li>
+            <li><span>Item 4</span> <button class="primary-btn">Add</button></li>
+        </ul>
+
+
+    </div>            
+    <div class="element" >
+        <h1 class="element__heading">Sign UP</h1>
+
+
+        <form action="" class="signup">
+            <h1>Sign Up Form</h1>
+            <p>You can subsctbe here by providing your name and email</p>
+            <div class="signup__input">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter Your Name"/>
+            </div>
+            <div class="signup__input">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter Your Email"/>
+            </div>
+            <button class="primary-btn">Submit</button>
+        </form>
+        
+    </div>
+   
+    <div class="element" >
+        <h1 class="element__heading">Some Grid Layouts</h1>
+     
+    <h2>Grid Layout 1</h2>
+    
+
+    <div class="grid--three">
+        <div class="boxthree--1">box 1</div>
+        <div class="boxthree--2"> box 2</div>
+        <div class="boxthree--3"></div>
+    </div>
+
+    <h2>Grid Layout 2</h2>
+  
+    <div class="grid--five">
+        <div class="boxfive--1">box 1</div>
+        <div class="boxfive--2"> box 2</div>
+        <div class="boxfive--3"></div>
+        <div class="boxfive--4"></div>
+        <div class="boxfive--5"></div>
+    </div>
+
+
+    </div>
+
+    <div class="element" >
+        <h1 class="element__heading">Snackbar</h1>
+
+        <div class="snackbar">
+            <p>this is saved.</p>
+        </div>
+
+
+    </div>
+    <div class="element" >
+        <h1 class="element__heading">Typography</h1>
+        <h2 class="element__subheading">Based on sizes</h2>
+
+
+        <p class="text--xs">DO work hard.</p>
+        <p class="text--sm">Keep Practicing</p>
+        <p class="text--nm">Don't quit.</p>
+        <p class="text--lg">Do what is right, not what is easy nor what is popular.</p>
+        <p class="text--xlg">It's not the load that breaks you down, it's the way you carry it.</p>
+        <h2 class="element__subheading">Headings</h2>
+        <h1 class="heading--xxlg">Heading Extra Large</h1>
+        <h2 class="heading--xlg"> Heading Large</h2>
+        <h3 class="heading--lg">Heading Large</h3>
+        <h4 class="heading--nm">Heading Normal</h4>
+        <h5 class="heading--sm">Heading  Small</h5>
+        <h6 class="heading--xsm">Heading Extra Small</h6>
+
+
+
+        <h2 class="element__subheading">Centered Text</h2>
+
+        <p class="text-center">This is the text in center.</p>
+
+
+    </div>
+   
+
+   
+  
+</body>
+</html>
