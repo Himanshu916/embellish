@@ -1,2 +1,2 @@
-# Mandik_Libraray
+# Embellish
  A component library
